@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Prerak's Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -13,7 +13,34 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
+<style>
+    a {
+      margin-right: 10px; /* Adjust the value to create the desired space */
+    }
+    .optional-section-block img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto 15px; /* Adjust margin as needed */
+        border-radius: 5px; /* Adds rounded corners, adjust as desired */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect, adjust as needed */
+    }
+    .optional-section-block a {
+        display: block;
+        text-align: center;
+        margin-top: 15px; /* Adjust margin as needed */
+    }
+    .optional-section-block .links {
+        display: flex;
+        justify-content: space-between; /* Adjust alignment as needed */
+    }
 
+    .optional-section-block .links a {
+        flex: 1;
+        margin: 0 5px; /* Adjust margin as needed */
+        text-align: center;
+    }
+  </style>
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -27,9 +54,11 @@
             <li>
                 <a href="#about">About</a>
             </li>
+            <!--
             <li>
                 <a href="#experience">Experience</a>
             </li>
+            -->
             <li>
                 <a href="#education">Education</a>
             </li>
@@ -40,6 +69,12 @@
                 <a href="#skills">Skills</a>
             </li>
             <li>
+                <a href="#books">Books</a>
+            </li>
+            <li>
+                <a href="#interests">Interests</a>
+            </li>
+            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -48,9 +83,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
+            <h1>Prerak Patel</h1>
             <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
         </div>
         <!-- End #lead-content -->
 
@@ -64,8 +99,8 @@
         <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
-
-    <div id="about">
+    
+    <div id="about" class="background-alt">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -73,16 +108,25 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        I studied Computer Science and continue to educate my self with
+                        textbooks, competitive programming, or doing projects. I want to
+                        build my experience with coding so I do as many coding tasks as I can.
+                        I find myself learning best by implementation because different problems
+                        will arise during implementation or certain design decisions need to be
+                        made. My friends and I like to share our solutions to problems and critque
+                        each others code. We have learned a lot from each other as we all
+                        are invested in different languages and different parts of Computer Science.
+                        I like to contribute to the Computer Science community or Software Engineering 
+                        communities, there is a lot to learn and I like to pay it forward. Some of my 
+                        interests are playing chess, poker, going to the gym, and to code review my 
+                        friend's solutions to puzzles or problems.
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
-
+    <!--
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
@@ -111,71 +155,123 @@
             </div>
         </div>
     </div>
+    -->
     <!-- End #experience -->
 
-    <div id="education">
+    <div id="education" >
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h3>Rutgers New Brunswick</h3>
+            <span class="education-date">Sept 2018 - May 2022</span>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Relevant Coursework: Data Structures, Computer Architecture, Systems Programming,
+                Principles of Info & Data Management, Design and Analysis of Computational Algorithms,
+                Software Methodology, Introduction to Artificial Intelligence, Computer Security,
+                Cryptography, Graph Theory, Operating Systems Design.
             </p>
         </div>
         <!-- End .education-block -->
 
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                
+
+                
+                
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/Words.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Simple Plagiarism Checker</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            A multithreading project in C that compares how similar 2 files are to each other.
+                            Takes in files or directories and uses threading to process everything, then will 
+                            use threading to analyze each file and compare each file to each other. The Analysis
+                            is based on the Word Frequency Distribution and using that for the Jensen Shannon Distance
+                            formula to measure the similarity between the two probability distributions. The lower
+                            the number the more simialr the two files are.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/PrerakPatelCS/Simple-Plagiarism-Checker/tree/main" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Eertree.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>EERTREE Visualization</h3>
+                        <p>
+                            The EERTREE is a palindromic tree that processes a strings 
+                            efficiently for a palindrome, first introduced in a research paper
+                            in 2015. Each node is a palindrome, the edges are the characters 
+                            you add to both sides, and the links point to the biggest 
+                            palindrome that is a suffix to this palindrome. The way the 
+                            site works is that when you start typing the characters get
+                            fed into a data stream I made which adds the characters to the
+                            EERTREE.
+                        </p>
+                        
+                        <a href="https://prerakpatelcs.github.io/EERTREE_Visualization/" target="_blank">View Project</a>
+                        <a href="https://github.com/PrerakPatelCS/EERTREE_Visualization" target="_blank">View Source Code</a>
+                        <a href="https://rosettacode.org/wiki/Eertree" target="_blank">View Rosetta Code</a>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>                
                 <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/MatrixMultCool.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Matrix Multiplication</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            There are many different algorithms that have a faster runtime than
+                            naive matrix multiplication. I use the strategy pattern to 
+                            test all the algorithms easily. The fastest algorithm's runtime is O(n^2.3)
+                            but it is just theory, Strassen's algorithm which is O(n^2.81) is the only
+                            one you can implement. Because it is divide and conquer, there is a lot of over
+                            head and the algorithms base case is a 2x2 matrix so the matrices may need some padding.
+                            There are 3 ways to add padding, convert the matrix to a power of 2 square matrix, 
+                            dynmaic padding, and dynamic peeling. Another algorithm is Strassen Winograd which
+                            is a small optimization to Strassen. Interesting fact about quick select median of 
+                            medians the run time complexity is O(n) but it is slower than normal quick select.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/PrerakPatelCS/Matrix_Multiplication" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/EcommercePlatform.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Ecommerce Platform</h3>
+                        <p>
+                            A play ecommerce platform to learn how to make a full stack application.
+                            I learned how to use HTML, CSS, some JQuery and React with Bootstrap for the 
+                            frontend. Products are loaded from a database and when you login with store all of your
+                            relavent data. To get the data from the database I use Spring Boot which I 
+                            host on Google Cloud Run with a Docker container. Lastly the database is 
+                            a NoSQL database, MongoDB. I used postman to test out all the api endpoints.
+                            When you open the site without enabling "remember me" after logining in, 
+                            a guest accound is automatically made for you and stored in the local storage.
+                        </p>
+                        <a href="https://prerakpatelcs.github.io/EcommercePlatform/" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -183,45 +279,273 @@
             </div>
         </div>
     </div>
+
+<!-- Projects Above -->
+
+    <a id="view-more-projects" href="#">View More Projects</a>
+    <div id="more-projects" class="row">
+        
+         
+        <div class="project shadow-large">
+            <div class="project-image">
+                <img src="images/CoffeeShop.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+                <h3>Coffee Shop Android App</h3>
+                <p>
+                    An Android app made with Java that sells donuts and coffees using
+                    OOP design. The UI supports landscape and other themes. Tested all classes and UI commponents
+                    with Junit Testing and Espresso respectively.
+                </p>
+                <a href="https://github.com/PrerakPatelCS/CoffeeShopAndroidApp/tree/master" target="_blank">View Project</a>
+            </div>
+            <!-- End .project-info -->
+        </div>
+
+        <div class="project shadow-large">
+            <div class="project-image">
+                <img src="images/TwitchPlaysTTT.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+                <h3>Twitch Plays Tic Tac Toe</h3>
+                <p>
+                    Winning project in a Rutgers Hackathon, the task was to make a 
+                    Twitch Plays project which takes input from the twitch streaming platforms
+                    chat and that would play the game. We would need to have a voting system
+                    so we get the move that chat wanted most, they would vote on which square
+                    to play on. Chat would be X's and the bot would be O's. We decided to
+                    use a bot that picks a random spot instead of a sophisticated bot 
+                    which would either win or tie every time.
+                </p>
+                <a href="https://github.com/PrerakPatelCS/HackRU" target="_blank">View Project</a>
+            </div>
+            <!-- End .project-info -->
+        </div>
+                        
+        <div class="project shadow-large">
+            <div class="project-image">
+                <img src="images/BTD6.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+                <h3>Balloons Tower Defense 6 Script</h3>
+                <p>
+                    This was a fun project meant to script the video game Balloons Tower
+                    Defense 6. I forked someones github repository which scripted
+                    farming for an event. I wanted to farm monkey experience points
+                    so I can unlock their new upgrades. I made the scripts for farming
+                    experience for these monkeys and now I have all the upgrades unlocked
+                    while I was playing basketball.
+                </p>
+                <a href="https://github.com/PrerakPatelCS/btd6-ahk" target="_blank">View Project</a>
+            </div>
+            <!-- End .project-info -->
+        </div>
+    </div>
+
+
     <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
             <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Docker</li>
+            <li>Google Cloud Platform</li>
+            <li>SQL</li>
+            <li>NoSQL</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Bash</li>
+            <li>XML</li>
+            <li>Gradle</li>
+            <li>Maven</li>
+            <li>PyCharm</li>
+            <li>Eclipse</li>
+            <li>Android Studio</li>
+            <li>MySQL</li>
+            <li>JavaFx</li>
+            <li>Linux</li>
+            <li>MongoDB</li>
+            <li>Matlab</li>
+            <li>OOP</li>
+            <li>Version Control</li>
+            <li>Testing</li>
+            <li>Unit Tests</li>
+            <li>REST</li>
+            <li>MultiThreading</li>
+            <li>Data Structures</li>
+            <li>Algorithms</li>
         </ul>
     </div>
     <!-- End #skills -->
 
+    <div id='books' class="optional-section background-alt">
+        <h2 class="heading">Books</h2>
+    
+        <div class="optional-section-block">
+            <h3>Competitive Programmer's Handbook</h3>
+            <div>
+                <img src="images/Competitive-Programmers-Handbook.jpg" />
+            </div>
+            <p>
+                This book goes over various data strucutres and algorithms and how to implement them 
+                C++. Shows you a bunch of patterns in certain problems and the algorithms
+                that can tackle them, plus the time and space complexities of them.
+                The implementation details focus on how to implement it with the 
+                least amount of code and goes over some tricks like using negative values
+                and the default natural ordering instead of making a comparator.
+                There are still some advanced algorithms I haven't gotten the chance to
+                implement because of the rarity of those problems.
+            </p>
+            <a href="https://docs.google.com/document/d/1zpoo_wImeo9-boeDaSijZ02qZuMWZHR4yQNczCO-gD4/edit?usp=sharing" target="_blank">View Notes</a>
+        </div>
+        <!-- End .optional-section-block -->
+    
+        <div class="optional-section-block">
+            <h3>Effective Java</h3>
+            <div>
+                <img src="images/Effective-java.jpg" />
+            </div>
+            <p>
+                This book is organized with items which you can read in any order. The items
+                go over the best practices for writing clean code in Java and goes over
+                a bunch of idioms which can help you in any language you want. There is 
+                a lot of influence from Design Patterns and the JLS(Java Language Specification).
+                The reason Design Patterns is important for Java is that the whole Collections
+                Library and JDK is litered with these Design Patterns so when using them
+                you understand how it all works and what their design intentions where.
+            </p>
+            <p>
+                A big reason why I wanted to read this book was because my friends usually 
+                solve problems in python and they are experts at python at this point, so 
+                I became the expert at Java and now my code has become very clean and I 
+                can help them out when they use Java. Also my Java code has become pythonic
+                enough that sometimes my code would be cleaner than their python code
+                which is very hard if you think about all the boilerplate!
+            </p>
+            <a href="https://docs.google.com/document/d/1wqof6UED8Wp4Xb7r1-b-Lrepe5Q9LpRdsRieEidmMHw/edit?usp=sharing" target="_blank">View Notes</a>
+        </div>
+        <!-- End .optional-section-block -->
+
+        <div class="optional-section-block">
+            <h3>Design Patterns: Elements of Reusable Object-Oriented Software</h3>
+            <div>
+                <img src="images/Design-Patterns.jpg" />
+            </div>
+            <p>
+                This book does not need an introduction. It goes over 23 design patterns
+                for Object Oriented Programming. For each pattern it tells you the 
+                problem it solves, the consequences, the implementation, and all the 
+                parts that go into it like different interfaces and classes. It also 
+                goes over different implementations for different needs. The implementation
+                is in C++ and Smalltalk which is obsolete as far as I know. The class diagrams
+                are in OMT which is also obsolete but UML is based on OMT so it is not hard 
+                to understand. This book does a great job of accumulating experience in 
+                OOP and simplifying it down to 23 patterns for the readers. The book came out 
+                in 1995 and is still relevant today!
+            </p>
+            <a href="https://docs.google.com/document/d/1QFdxbuIWbwkqPD-20uexZZ5z9pGyAlpr-LfCSEvlVVM/edit?usp=sharing" target="_blank">View Notes</a>
+        </div>
+        <!-- End .optional-section-block -->
+    </div>
+    <!-- End .optional-section -->
+
+
+    <div id='interests' class="optional-section background">
+        <h2 class="heading">Interests</h2>
+    
+        <div class="optional-section-block">
+            <h3>Competitive Programing</h3>
+            <p>
+                Competitive Programming has a series of contests where you are given around 4 to 8 
+                problems and you have to solve them in a time constraint of around 2 hours. 
+                There are a bunch of different levels to Competitive Programming, Codeforces uses
+                a scale similar to chess, an elo system. I was first introduced to this from my friends,
+                at first we would do Leetcode questions and critque each others soltuions and then
+                we got really good after a ton of practice. The natural progression is to move into 
+                Codeforces which is much harder than Leetcode. Codeforces is so hard that a lot
+                of researchers use those questions and infrastructure to test out new algorithms 
+                or data structures. The new AI's are also tested on Codeforces to see how many
+                questions it can solve.
+            </p>
+        </div>
+        <!-- End .optional-section-block -->
+    
+        <div class="optional-section-block">
+            <h3>Advent of Code</h3>
+            <p>
+                This was a fun event, similar to an Advent calender for Christmas you
+                get a new puzzle every day from December 1st to 25th. After you
+                complete the first puzzle there will be a second harder puzzle.
+                Around 200 thousand people participate in this and the topics range from 
+                many different fields in computer science. This is a good way to 
+                challenge yourself, many people do it to learn a new language.
+                I did it to get better at Python, I learned new techniques
+                for coding in Python and with using a dynamic typing language.
+                I also learned some new algorithms like Shoelace + Pick's theorems
+                for finding area of a polygon. Check out my github repo with all my solutions. 
+            </p>
+            <a href="https://github.com/PrerakPatelCS/AdventOfCode2023" target="_blank">View Code</a>
+        </div>
+        <!-- End .optional-section-block -->
+
+        <div class="optional-section-block">
+            <h3>Rosetta Code</h3>
+            <p>
+                I found the EERTREE data structure from practicing coding on Leetcode,
+                the question "5. Longest Palindromic Substring". After not understanding it
+                I black boxed it, where I only thought about what it takes in and what it outputs.
+                Later I understood more and created the EERTREE Visualization. I noticed the 
+                JavaScript version was not on Rosetta Code so I added it there.
+            </p>
+            <div class="links">
+                <a href="https://leetcode.com/problems/longest-palindromic-substring/description/" target="_blank">View The LeetCode</a>
+                <a href="https://rosettacode.org/wiki/Eertree" target="_blank">View The Rosetta Code</a>
+            </div>
+        </div>
+
+        <div class="optional-section-block">
+            <h3>Poker</h3>
+            <p>
+                I enjoy some Poker from time to time. During Covid I used to play with my friends
+                online as a means of staying connected. My skills went from very bad to winning 
+                most of the money in a couple of months. You notice patterns in the ways people play
+                and how to interpret the game. I don't want to give all my secrets but your understanding
+                of the game is everything since there is no strategy book people go by, everyone needs
+                their own developed strategy.
+            </p>
+        </div>
+        <!-- End .optional-section-block -->
+
+        <div class="optional-section-block">
+            <h3>Gym</h3>
+            <p>
+                I always try to stay healthy, so I hit the gym. I have done many different
+                workout splits and tried many different excercises out. At one point I used
+                to be at the gym for 3 hours a day because there were so many excercises to do.
+                It is important to always have balance, I wouldn't say 3 hours was that benefitial
+                but I don't regret it, it was always fun especially with my friends. I would say
+                dieting would be the most important thing and when I can get back into the grind
+                I know exactly what to do.
+            </p>
+        </div>
+        <!-- End .optional-section-block -->
+    </div>
+    <!-- End .optional-section -->
+
+    
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/f/xyyryeea">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +561,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2024</span> Prerak Patel
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,14 +572,17 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/PrerakPatelCS" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
+                        <!--
                         <li>
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
+                        -->
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/prerakpatelcs/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
+                        <!--
                         <li>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
@@ -265,6 +592,7 @@
                         <li>
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li>
+                        -->
                     </ul>
                 </div>
             </div>
